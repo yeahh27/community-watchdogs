@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "x": "IT",
+      "value": 590
+    },
+    {
+      "x": "Python",
+      "value": 283
+    },
+    {
+      "x": "소프트웨어",
+      "value": 544
+    },
+    {
+      "x": "JAVA",
+      "value": 527
+    },
+    {
+      "x": "C++",
+      "value": 422
+    },
+    {
+      "x": "HTML",
+      "value": 620
+    },
+    {
+      "x": "Javascript",
+      "value": 120
+    },
+    {
+      "x": "C#",
+      "value": 200
+    },
+    {
+      "x": "vue",
+      "value": 423
+    },
+    {
+      "x": "react",
+      "value": 213
+    }
+  ]
+}
