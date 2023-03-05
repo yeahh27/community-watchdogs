@@ -32,6 +32,21 @@ declare module '모듈명'
 }
 ```
 
+## warning
+- Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently
+
+  - Symptom
+    - When you are using Chrome 107(developer version) & 106 (official version) or any version above these, you could encounter a warning in console:
+
+  - Cause
+    - Based on Google developer guide, the setting for attribute willReadFrequently in getContext("2d") has to be true if you are using Chrome 107(developer version) & 106 (official version) or higher, otherwise it will show this warning message.
+
+  - Solution
+    - Step 1. Navigate to ‘../Resources/dynamsoft.webtwain.initiate.js’ replace all getContext("2d") to getContext("2d",{willReadFrequently:true})
+    - Step 2. Navigate to ‘../Resources/src/dynamsoft.viewer.js’ replace all getContext("2d") to getContext("2d",{willReadFrequently:true})
+
+출처 <https://www.dynamsoft.com/web-twain/docs/faq/chrome-106-107-warning.html>
+
 ## Project setup
 ```
 npm install

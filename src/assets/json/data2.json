@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "text": "IT",
+      "frequency": 590
+    },
+    {
+      "text": "Python",
+      "frequency": 283
+    },
+    {
+      "text": "소프트웨어",
+      "frequency": 544
+    },
+    {
+      "text": "JAVA",
+      "frequency": 527
+    },
+    {
+      "text": "C++",
+      "frequency": 422
+    },
+    {
+      "text": "HTML",
+      "frequency": 620
+    },
+    {
+      "text": "Javascript",
+      "frequency": 120
+    },
+    {
+      "text": "C#",
+      "frequency": 200
+    },
+    {
+      "text": "vue",
+      "frequency": 423
+    },
+    {
+      "text": "react",
+      "frequency": 213
+    }
+  ]
+}
